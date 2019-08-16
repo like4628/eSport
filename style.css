@@ -35,7 +35,34 @@ header.jumbotron .container h4 {
   color: rgba(255, 255, 255, 0.4);
   padding-top: 50px;
 }
+/* 泡泡特效開始 */
+.bubbles > .particle {
+  /*初始透明度为0 */
+  opacity: 0;
+  position: absolute;
+  /*初始颜色为荧光色，透明度为0.7 */
+  background-color: rgba(255, 255, 255, 0.5);
+  /*使用bubbles动画，持续时间18秒，缓慢进入，无限循环 */
+  animation: bubbles 18s ease-in infinite;
+  border-radius: 100%;
+}
 
+/*css keyframes 动画 */
+@keyframes bubbles {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+    transform: translate(0, -20%);
+  }
+  /*这里-8000%表示是气泡的8000% */
+  100% {
+    opacity: 0;
+    transform: translate(0, -8000%);
+  }
+}
+/*泡泡特效結束*/
 section#enter {
   background-image: url("https://storage-asset.msi.com/global/picture/image/feature/multimeda/keyboard/GK70/GK70-overview-bg.jpg");
   background-size: cover;
