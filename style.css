@@ -48,7 +48,7 @@ header.jumbotron .container h4 {
   border-radius: 100%;
 }
 
-/*css keyframes 动画 */
+/*css keyframes 动画 改泡泡上升速度*/
 @keyframes bubbles {
   0% {
     opacity: 0;
