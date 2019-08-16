@@ -20,13 +20,11 @@
 }
 
 header.jumbotron {
-  border: solid 5px red;
   width: 100%;
   background-image: url("https://wallpapercave.com/wp/wp1934911.png");
   /* background-attachment: fixed; */
   background-size: cover;
   background-position: center ;
-
   padding: 250px 0px;
   color: white;
   margin-bottom: 0px;
@@ -55,7 +53,7 @@ header.jumbotron .container h4 {
   0% {
     opacity: 0;
   }
-  5% {
+  20% {
     opacity: 1;
     transform: translate(0, -20%);
   }
