@@ -25,3 +25,7 @@ jQuery.rnd = function(m, n) {
   return Math.floor(Math.random() * (n - m + 1)) + m;
 }
 bubbles();
+
+$('.btn_click').click(function(){
+  alert('恭喜你訂閱我，但是這是做好玩的，不要揍我(ಥ﹏ಥ)');
+});

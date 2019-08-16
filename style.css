@@ -149,3 +149,7 @@ footer.jumbotron input {
   max-width: 380px;
   margin: 40px auto;
 }
+
+footer.jumbotron button{
+  width: 150px;
+}
