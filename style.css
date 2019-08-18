@@ -19,9 +19,9 @@
   color: green;
 }
 
-/* embed{
+iframe{
   display: none;
-} */
+}
 header.jumbotron {
   width: 100%;
   background-image: url("https://wallpapercave.com/wp/wp1934911.png");
