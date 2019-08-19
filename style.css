@@ -19,9 +19,6 @@
   color: green;
 }
 
-embed{
-  display: none;
-}
 header.jumbotron {
   width: 100%;
   background-image: url("https://wallpapercave.com/wp/wp1934911.png");
@@ -155,4 +152,9 @@ footer.jumbotron input {
 
 footer.jumbotron button{
   width: 150px;
+}
+
+
+embed{
+  display: none;
 }
