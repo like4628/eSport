@@ -82,6 +82,7 @@ section#enter .keyboard {
 
 section#original {
   background-color: #eee;
+  padding: 100px 0;
 }
 section#original .img-wrap {
   height: 170px;
@@ -120,6 +121,7 @@ section#story .fas {
 
 section#future {
   background-color: #eee;
+  padding: 80px 0px;
 }
 section#future img {
   width: 100%;
