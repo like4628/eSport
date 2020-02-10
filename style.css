@@ -101,6 +101,7 @@ section#original .contury ul {
 
 section#story {
   padding: 0;
+  overflow: hidden;
 }
 section#story .spaceimg {
   background-image: url(https://ichef.bbci.co.uk/news/660/cpsprodpb/7D66/production/_105120123_gettyimages-831502910.jpg);
