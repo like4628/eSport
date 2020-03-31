@@ -2,18 +2,7 @@
 * {
   font-family: "微軟正黑體";
 }
-* h1,
-* h2,
-* h3,
-* h4,
-* h5,
-* h6,
-* .h1,
-* .h2,
-* .h3,
-* .h4,
-* .h5,
-* .h6 {
+* h1, * h2, * h3, * h4, * h5, * h6, * .h1, * .h2, * .h3, * .h4, * .h5, * .h6 {
   font-weight: bold;
 }
 * nav.navbar {
@@ -35,11 +24,10 @@ header.jumbotron {
   background-image: url("https://wallpapercave.com/wp/wp1934911.png");
   /* background-attachment: fixed; */
   background-size: cover;
-  background-position: center;
+  background-position: center ;
   padding: 250px 0px;
   color: white;
   margin-bottom: 0px;
-  overflow: hidden;
 }
 header.jumbotron .container {
   margin-top: -50px;
@@ -166,10 +154,11 @@ footer.jumbotron input {
   margin: 40px auto;
 }
 
-footer.jumbotron button {
+footer.jumbotron button{
   width: 150px;
 }
 
-embed {
+
+embed{
   display: none;
 }
