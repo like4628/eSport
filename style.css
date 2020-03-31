@@ -20,9 +20,11 @@
 }
 
 header.jumbotron {
+  width: 100%;
   background-image: url("https://wallpapercave.com/wp/wp1934911.png");
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: cover;
+  background-position: center ;
   padding: 250px 0px;
   color: white;
   margin-bottom: 0px;
@@ -34,12 +36,40 @@ header.jumbotron .container h4 {
   color: rgba(255, 255, 255, 0.4);
   padding-top: 50px;
 }
+/* 泡泡特效開始 */
+.bubbles > .particle {
+  /*初始透明度为0 */
+  opacity: 0;
+  position: absolute;
+  /*初始颜色为荧光色，透明度为0.7 */
+  background-color: rgba(255, 255, 255, 0.5);
+  /*使用bubbles动画，持续时间18秒，缓慢进入，无限循环 */
+  animation: bubbles 18s ease-in infinite;
+  border-radius: 100%;
+}
 
+/*css keyframes 动画 改泡泡上升速度*/
+@keyframes bubbles {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+    transform: translate(0, -20%);
+  }
+  /*这里-8000%表示是气泡的8000% */
+  100% {
+    opacity: 0;
+    transform: translate(0, -8000%);
+  }
+}
+/*泡泡特效結束*/
 section#enter {
   background-image: url("https://storage-asset.msi.com/global/picture/image/feature/multimeda/keyboard/GK70/GK70-overview-bg.jpg");
   background-size: cover;
   padding: 100px;
   color: white;
+  overflow: hidden;
 }
 section#enter h2 {
   margin-top: 130px;
@@ -53,6 +83,7 @@ section#enter .keyboard {
 
 section#original {
   background-color: #eee;
+  padding: 100px 0;
 }
 section#original .img-wrap {
   height: 170px;
@@ -71,6 +102,7 @@ section#original .contury ul {
 
 section#story {
   padding: 0;
+  overflow: hidden;
 }
 section#story .spaceimg {
   background-image: url(https://ichef.bbci.co.uk/news/660/cpsprodpb/7D66/production/_105120123_gettyimages-831502910.jpg);
@@ -91,6 +123,7 @@ section#story .fas {
 
 section#future {
   background-color: #eee;
+  padding: 80px 0px;
 }
 section#future img {
   width: 100%;
@@ -119,4 +152,13 @@ footer.jumbotron h2 {
 footer.jumbotron input {
   max-width: 380px;
   margin: 40px auto;
+}
+
+footer.jumbotron button{
+  width: 150px;
+}
+
+
+embed{
+  display: none;
 }
