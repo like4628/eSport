@@ -16,7 +16,7 @@
   transition: 0.5s;
 }
 * nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
-  color: green;
+  color: #D6A8FA;
 }
 
 header.jumbotron {
@@ -33,7 +33,7 @@ header.jumbotron .container {
   margin-top: -50px;
 }
 header.jumbotron .container h4 {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.788);
   padding-top: 50px;
 }
 /* 泡泡特效開始 */
@@ -75,10 +75,11 @@ section#enter h2 {
   margin-top: 130px;
 }
 section#enter .keyboard {
-  background-image: url(https://cdn2.ettoday.net/images/1392/1392378.jpg);
-  height: 300px;
+  background-image: url(./champion.jpg);
+  height: 400px;
   background-size: cover;
   background-position: center;
+  border-radius: 30px;
 }
 
 section#original {
@@ -86,8 +87,9 @@ section#original {
   padding: 100px 0;
 }
 section#original .img-wrap {
-  height: 170px;
+  height: 200px;
   overflow: hidden;
+  border-radius: 10px;
 }
 section#original .img-wrap img {
   margin-left: -30px;
@@ -137,7 +139,7 @@ section#future .future {
 }
 
 footer.jumbotron {
-  background-image: url(https://na.leagueoflegends.com/sites/default/files/styles/scale_xlarge/public/upload/pax.flier_.1920x1080_0.jpg);
+  background-image: url(./banner-industry-tech.jpg);
   background-position: center;
   background-size: cover;
   margin-top: 20px;
@@ -146,6 +148,7 @@ footer.jumbotron {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 footer.jumbotron h2 {
   color: white;
 }
